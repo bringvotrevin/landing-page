@@ -1,4 +1,4 @@
-import Client from './components/Client';
+import About from './components/About';
 import Footer from './components/Footer';
 import Introduction from './components/Introduction';
 import Nav from './components/Nav';
@@ -14,7 +14,7 @@ function App() {
         <Nav />
         <Introduction />
       </div>
-      <Client />
+      <About />
       <Footer />
     </div>
   );
