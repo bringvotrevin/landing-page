@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+
+:root {
+  /* Primary Colors */
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
+
+  /* Neutral Colors */
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --font-body-size: 18px;
+}
+
+.fraunces {
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+}
+
+.fraunces-bold {
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  /* font-variation-settings: 'SOFT' 0, 'WONK' 0; */
+}
+
+.header-bg {
+  /* background-image: 'url("/assets/desktop/image-header.jpg")'; */
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: var(--font-body-size);
+  line-height: 1.5;
+  color: var(--very-dark-desaturated-blue);
+  background-color: var(--white);
+}
+
+button {
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #212e37;
+    --foreground: #ffffff;
+  }
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
