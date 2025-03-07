@@ -1,4 +1,5 @@
 import About from './components/About';
+import Client from './components/Client';
 import Footer from './components/Footer';
 import Introduction from './components/Introduction';
 import Nav from './components/Nav';
@@ -15,6 +16,7 @@ function App() {
         <Introduction />
       </div>
       <About />
+      <Client />
       <Footer />
     </div>
   );
