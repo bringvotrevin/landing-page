@@ -15,7 +15,7 @@ const About = () => {
         </p>
         <a className='fraunces-bold text-xs'>LEARN MORE</a>
       </div>
-      <img src={img2} alt='dummy2' />
+      <img src={img2} alt='dummy2 ' />
       <img src={img1} alt='dummy1' />
       <div className='p-16 flex flex-col justify-center item-center gap-7'>
         <h3 className='fraunces-bold text-2xl'>
