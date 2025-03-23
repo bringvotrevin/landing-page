@@ -26,6 +26,13 @@
   font-optical-sizing: auto;
 }
 
+.fraunces-semibold {
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .fraunces-bold {
   font-family: 'Fraunces', serif;
   font-optical-sizing: auto;

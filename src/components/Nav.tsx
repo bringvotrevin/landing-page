@@ -6,7 +6,11 @@ const Nav = () => {
         <span className='hover:brightness-0'>About</span>
         <span className='hover:brightness-0'>Services</span>
         <span className='hover:brightness-0'>Projects</span>
-        <span className='hover:brightness-0'>Contact</span>
+        <div className='group px-5 py-3 rounded-4xl bg-white fraunces-semibold hover:bg-white/40 transition-colors'>
+          <span className='text-black group-hover:text-white transition-colors'>
+            CONTACT
+          </span>
+        </div>
       </div>
     </section>
   );
